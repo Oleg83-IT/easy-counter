@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  padding: 10px 40px;
+  color: #fff;
+  background-color: #09a;
+  margin-bottom: 10px;
+}
+
+button {
+  margin: 20px;
+  padding: 3px 26px;
+  font-size: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#plus {
+  color: #0b0;
+}
+
+#minus {
+  color: #f00;
+}
