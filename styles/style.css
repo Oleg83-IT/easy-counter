@@ -24,3 +24,15 @@ button {
 #minus {
   color: #f00;
 }
+
+#counter-step {
+  padding: 6px 26px;
+  border: 2px outset #717171;
+  background-color: #efefef;
+  border-radius: 6px;
+}
+
+#step {
+  font-size: 20px;
+  font-style: italic;
+}
