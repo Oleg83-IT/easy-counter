@@ -16,24 +16,23 @@
   </div>
 
   <div>
-    <button id="reset-counter">Reset total count</button>
+    <button id="reset-counter" class="reset-btn">Reset total count</button>
   </div>
 
   <p id="step">Choose counter's step:</p>
+  
   <p>
-    <select id="counter-step">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-      <option>6</option>
-      <option>7</option>
-      <option>8</option>
-      <option>9</option>
-      <option>10</option>
-    </select>
+    <input type="range" id="counter-step" min="1" max="10" value="1">
+    <button id="step-value"></button>
   </p>
+
+  <div>
+    <button id="reset-counter-step" class="reset-btn">Reset counter's step</button>
+  </div>
+
+  <div>
+    <button id="reset-both" class="reset-btn">Reset both – total count and counter's step</button>
+  </div>
 
   <script src="index.js"></script>
 </body>

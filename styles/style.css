@@ -17,6 +17,10 @@ button {
   cursor: pointer;
 }
 
+.reset-btn {
+  background: #ffebd8;
+}
+
 #plus {
   color: #0b0;
 }
@@ -25,11 +29,8 @@ button {
   color: #f00;
 }
 
-#counter-step {
-  padding: 6px 26px;
-  border: 2px outset #717171;
-  background-color: #efefef;
-  border-radius: 6px;
+#counter-step, #step-value {
+  vertical-align: middle;
 }
 
 #step {
