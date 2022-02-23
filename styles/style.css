@@ -10,15 +10,27 @@ h1 {
 }
 
 button {
-  margin: 20px;
   padding: 3px 26px;
+  cursor: pointer;
+}
+
+button, #step-value {
   font-size: 20px;
   border-radius: 6px;
-  cursor: pointer;
+  margin: 20px;
+}
+
+.small-btn {
+  padding: 3px 0;
+  width: 67px;
 }
 
 .reset-btn {
   background: #ffebd8;
+}
+
+.ib-elem-parent {
+  font-size: 0;
 }
 
 #plus {
@@ -29,8 +41,16 @@ button {
   color: #f00;
 }
 
-#counter-step, #step-value {
+#counter-step {
   vertical-align: middle;
+}
+
+#step-value {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  vertical-align: middle;
+  background: #efefef;
+  border: 2px outset rgb(118, 118, 118);
 }
 
 #step {
